@@ -29,7 +29,7 @@ Aplikasi ini adalah Multiple CRUD menggunakan CodeIgniter 4, Bootstrap 4, dan jQ
 - Pastikan versi PHP yang terinstall adalah versi `7.3` ke atas.
 - Jalankan `composer install`.
 - Ubah file `env` menjadi `.env`.
-- Buatlah database dengan nama `testCI4`, lalu import file sql yang telah disertakan.
+- Buatlah database dengan nama `testci4`, lalu import file sql yang telah disertakan.
 - Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan `php spark serve`.
 - Mohon gunakan jaringan data internet karena banyak hal yang diperlukan dalam jaringan.
 
