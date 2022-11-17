@@ -297,7 +297,7 @@ class ProdukDC extends BaseController
             } else {
                 // Mengambil data dari request
                 $id_produk = $this->request->getVar('id_produk');
-                $id_kategorip = $this->request->getVar('id_kategori-p');
+                $tbl_kategori = $this->request->getVar('tbl_kategori');
                 $nama_produk = $this->request->getVar('nama_produk');
                 $kode_produk = $this->request->getVar('kode_produk');
                 $foto_produk = $this->request->getVar('foto_produk');
@@ -307,7 +307,7 @@ class ProdukDC extends BaseController
                 for ($i = 0; $i < $jumlah_data; $i++) {
                     $data[$i] = [
                         'id_produk' => $id_produk[$i],
-                        'id_kategori-p' => $id_kategorip = [$i],
+                        'id_kategori-p' => $tbl_kategori[$i],
                         'nama_produk' => htmlspecialchars($nama_produk[$i]),
                         'kode_produk' => htmlspecialchars($kode_produk[$i]),
                         'foto_produk' => htmlspecialchars($foto_produk[$i]),
