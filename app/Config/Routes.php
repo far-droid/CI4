@@ -66,7 +66,7 @@ $routes->post('ProdukDC/addProduk', 'ProdukDC::addProduk');
 $routes->post('ProdukDC/saveAddProduk', 'ProdukDC::saveAddProduk');
 $routes->post('ProdukDC/deleteProduk', 'ProdukDC::deleteProduk');
 $routes->post('ProdukDC/editProduk', 'ProdukDC::editProduk');
-$routes->post('ProdukDC/saveEditKategori', 'ProdukDC::saveEditKategori');
+$routes->post('ProdukDC/saveEditProduk', 'ProdukDC::saveEditProduk');
 ##
 $routes->get('ProdukDC/getAllProduk', 'ProdukDC::getAllProduk');
 $routes->get('ProdukDC/produkServerside', 'ProdukDC::produkServerside');
@@ -74,7 +74,7 @@ $routes->get('ProdukDC/addProduk', 'ProdukDC::addProduk');
 $routes->get('ProdukDC/saveAddProduk', 'ProdukDC::saveAddProduk');
 $routes->get('ProdukDC/deleteProduk', 'ProdukDC::deleteProduk');
 $routes->get('ProdukDC/editProduk', 'ProdukDC::editProduk');
-$routes->get('ProdukDC/saveEditKategori', 'ProdukDC::saveEditKategori');
+$routes->get('ProdukDC/saveEditProduk', 'ProdukDC::saveEditProduk');
 
 
 /*
