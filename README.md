@@ -20,7 +20,8 @@ Aplikasi ini adalah Multiple CRUD menggunakan CodeIgniter 4, Bootstrap 4, dan jQ
 
 - dev stok
 - dev input gambar
-- dev laporan oust
+- dev laporan out
+- no crfs
 
 ## Cara penggunaan Aplikasi ini
 
@@ -30,3 +31,6 @@ Aplikasi ini adalah Multiple CRUD menggunakan CodeIgniter 4, Bootstrap 4, dan jQ
 - Ubah file `env` menjadi `.env`.
 - Buatlah database dengan nama `testCI4`, lalu import file sql yang telah disertakan.
 - Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan `php spark serve`.
+- Mohon gunakan jaringan data internet karena banyak hal yang diperlukan dalam jaringan.
+
+#### user : admin
