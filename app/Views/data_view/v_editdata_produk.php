@@ -24,10 +24,10 @@
                     <td>
                         <select class="form-control" name="tbl_kategori[]">
                             <?php foreach ($tbl_kategori as $gr) { ?>
-                                <option <?= $gr['id_kategori-p'] == $pd['id_kategori-p'] ? 'selected=selected' : null ?> value="<?= $gr['id_kategori-p'] ?>"><?= $gr['nama_kategori'] ?></option>
+                                <option <?= $gr['id_kategori'] == $pd['id_kategori-p'] ? 'selected=selected' : null ?> value="<?= $gr['id_kategori'] ?>"><?= $gr['nama_kategori'] ?></option>
                             <?php } ?>
                         </select>
-                        <div class="invalid-feedback error-kategori">
+                        <div class="invalid-feedback error-tbl_kategori">
 
                         </div>
                         <div class="valid-feedback">
@@ -37,7 +37,7 @@
                     </td>
                     <td>
                         <input class="form-control" type="text" name="nama_produk[]" value="<?= $pd['nama_produk'] ?>">
-                        <div class="invalid-feedback error-nama-produk">
+                        <div class="invalid-feedback error-nama_produk">
 
                         </div>
                         <div class="valid-feedback">
@@ -47,7 +47,7 @@
                     </td>
                     <td>
                         <input class="form-control" type="text" name="kode_produk[]" value="<?= $pd['kode_produk'] ?>">
-                        <div class="invalid-feedback error-kode-produk">
+                        <div class="invalid-feedback error-kode_produk">
 
                         </div>
                         <div class="valid-feedback">
@@ -57,7 +57,7 @@
                     </td>
                     <td>
                         <input class="form-control" type="text" name="foto_produk[]" value="<?= $pd['foto_produk'] ?>">
-                        <div class="invalid-feedback error-foto-produk">
+                        <div class="invalid-feedback error-foto_produk">
 
                         </div>
                         <div class="valid-feedback">
@@ -67,7 +67,7 @@
                     </td>
                     <td>
                         <input class="form-control" type="date" name="tgl_register[]" value="<?= $pd['tgl_register'] ?>">
-                        <div class="invalid-feedback error-tgl-register">
+                        <div class="invalid-feedback error-tgl_register">
 
                         </div>
                         <div class="valid-feedback">
